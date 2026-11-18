@@ -1,0 +1,17 @@
+# Do not commit internal information, logs, or GX Works3 local projects
+private/
+internal/
+internal-manuals/
+local-projects/
+work/
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!*.example
+# Keep public experiment logs as reviewed summaries only
+/evaluation/results*.csv
+/evaluation/session-logs/
+.DS_Store
+Thumbs.db
